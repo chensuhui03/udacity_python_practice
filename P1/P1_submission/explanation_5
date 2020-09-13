@@ -1,0 +1,4 @@
+Using linkedlist to implement blockchain. 
+
+Create a new block takes O(1). 
+Print a blockchain takes O(N) depending on the length of the chain.

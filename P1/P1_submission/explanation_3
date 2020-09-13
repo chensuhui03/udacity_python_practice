@@ -1,0 +1,9 @@
+I'm following the steps explained in the problem to implement huffman tree code. 
+
+1. Word count takes O(N) depending on the length of the data.
+2. To build the tree, I used an existing python package heapq to implement min heap. O(NlogN)
+3. I then use recursion to find the code/path for each charactor and store in dictionary for quick access. O(N)
+4. It takes O(1) to get the huffman code for each charactor. To form the code, we need to iterate through the data. O(N)
+5. Decode requires us to walk the tree based on the code and return to root once we get to a leaf. O(N)
+
+The overall time complexity is O(NlogN).

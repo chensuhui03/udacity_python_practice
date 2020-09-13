@@ -1,0 +1,8 @@
+All operations are taking O(1) as required by the problem statement.
+
+To achieve O(1) for get(), I choose dictionary as the data structure because given any key, it take constant time to get to the value.
+To achieve O(1) for set(), I choose linkedlist because it takes O(1) to add a node to the head and remove the tail when it reaches capacity.
+
+These two data structure need to work together to complete LRU cache.
+Everytime something is added or accessed, it moves to the front of the linkedlist. 
+When it reaches capacity, both linkedlist and dictionary need to be updated.

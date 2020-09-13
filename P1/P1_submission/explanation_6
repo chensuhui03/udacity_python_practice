@@ -1,0 +1,4 @@
+I'm using set() to get both union and intersection because elements in set are unique.
+
+Time complexity is O(n) for both union and intersection.
+

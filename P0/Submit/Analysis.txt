@@ -1,0 +1,6 @@
+Task0: Taking constant steps --> O(1)
+Task1: Iterating twice and converting a list into a set takes majority of the time. --> O(N)
+Task2: Iterating through the list takes majority of the time --> O(N)
+Task3: PartA: Majority of the time is taken by iterating through the list O(N), converting a set into a list O(N) then sort the list O(NlogN) --> O(NlogN)
+Task3: PartB: Majority of the time is taken by iterating through the list. --> O(N)
+Task4: Iterating througbh a list or a set 3 times O(N). Then sort the list O(NlogN). --> O(NlogN)

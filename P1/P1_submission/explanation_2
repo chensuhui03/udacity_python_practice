@@ -1,0 +1,2 @@
+The structure of the directory makes recursion a natual choice for this problem.
+If there are n folders, the performance will be O(n).
